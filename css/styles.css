@@ -707,6 +707,7 @@ iframe {
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(4, auto);
         grid-template-areas: ". header header header ." "title title title title title" "secciones-cop26 secciones-cop26 secciones-cop26 secciones-cop26 secciones-cop26" "secciones-cop26 secciones-cop26 secciones-cop26 secciones-cop26 secciones-cop26" "footer footer footer footer footer";
+        margin-top: 10px;
     }
     .secciones-cop26 {
         grid-area: secciones-cop26;
