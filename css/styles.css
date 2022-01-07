@@ -151,7 +151,6 @@ q {
 
 .crisisclimatica h1 {
     color: var(--text-on-dark-back);
-    font-size: 25px;
     text-align: left;
 }
 
@@ -163,6 +162,7 @@ q {
 
 .title-container p:first-of-type {
     text-align: center;
+    padding-top: 10px;
 }
 
 .noticias-container {
@@ -241,6 +241,10 @@ q {
     margin-bottom: 20px;
 }
 
+.boletin-container h1 {
+    text-align: center;
+}
+
 .boletin-container form input[type="submit"] {
     height: 40px;
     width: 50%;
@@ -283,6 +287,12 @@ q {
 
 .footer-container a:hover {
     color: var(--footer-text-a-hover-color);
+}
+
+.footer-sm ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .footer-sm a:hover {
@@ -710,7 +720,6 @@ iframe {
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(4, auto);
         grid-template-areas: "header header header header header" "title title title title title" "secciones-cop26 secciones-cop26 secciones-cop26 secciones-cop26 secciones-cop26" "secciones-cop26 secciones-cop26 secciones-cop26 secciones-cop26 secciones-cop26" "footer footer footer footer footer";
-        margin-top: 10px;
     }
     .secciones-cop26 {
         grid-area: secciones-cop26;
@@ -749,8 +758,7 @@ iframe {
     .footer-container>*:last-child {
         padding-bottom: 30px;
     }
-    .footer-links>*,
-    .footer-sm>* {
+    .footer-links>* {
         display: flex;
         flex-direction: row;
     }
