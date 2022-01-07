@@ -529,6 +529,7 @@ iframe {
         display: flex;
         flex-direction: column;
         gap: 10px;
+        padding-bottom: 0px;
     }
     .crisisclimatica {
         display: flex;
@@ -547,6 +548,7 @@ iframe {
     .title-container p:first-of-type {
         text-align: center;
         font-size: 25px;
+        padding-top: 30px;
     }
     .noticias-container {
         grid-area: noticias;
@@ -555,6 +557,8 @@ iframe {
         gap: 40px;
         padding-top: 40px;
         padding-bottom: 40px;
+        padding-right: 0px;
+        padding-left: 0px;
         background-color: var(--back-main-content);
     }
     .noticias-container>*:first-child {
