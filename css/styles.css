@@ -752,6 +752,7 @@ iframe {
         text-align: left;
         gap: 25px;
         color: var(--text-on-dark-back);
+        padding: 0;
     }
     .footer-container>* {
         width: 60%;
